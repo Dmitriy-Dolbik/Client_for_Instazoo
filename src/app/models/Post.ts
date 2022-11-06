@@ -1,13 +1,13 @@
 import {Comment} from './Comment';
 
-export interface Post{
+export interface Post {
   id?: number;//Знак "?" означает, что id не обязателен
   title: string;
   caption: string;
   location: string;
   image?: File;
   likes?: number;
-  likedUsers?: string[];
+  usersLiked?: string[];
   comments?: Comment [];
-  username: string;
+  username?: string;
 }

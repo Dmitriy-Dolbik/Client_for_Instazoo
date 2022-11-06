@@ -1,0 +1,9 @@
+.register-page{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+mat-form-field{
+  width: 50%;
+
+}
