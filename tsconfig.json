@@ -10,7 +10,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    /*"noImplicitAny": false,//Чтобы не было ошибки при отсутствии типа переменной*/
+    "noImplicitAny": false,//Чтобы не было ошибки при отсутствии типа переменной
     "strictPropertyInitialization": false,//чтобы не было ошибки при отсутствии инициализации
     "sourceMap": true,
     "declaration": false,
